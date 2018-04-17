@@ -21,7 +21,6 @@ public class SalaController {
     @Autowired
     private SalaDao salaDao;
 
-
     @GetMapping({"/admin/sala", "/admin/sala/{id}"})
     public ModelAndView form(@PathVariable("id")Optional<Integer> id, Sala sala){
         ModelAndView modelAndView = new ModelAndView("sala/sala");
@@ -34,9 +33,6 @@ public class SalaController {
 
         return modelAndView;
     }
-
-
-
 
     @PostMapping("/admin/sala")
     @Transactional
@@ -59,7 +55,6 @@ public class SalaController {
         return modelAndView;
     }
 
-
     @GetMapping("/admin/sala/{id}/sessoes")
     public ModelAndView listaSessoes(@PathVariable("id") Integer id) {
 
@@ -81,7 +76,6 @@ public class SalaController {
 
         return modelAndView;
     }
-
 
     @DeleteMapping("/admin/sala/{id}")
     @ResponseBody
