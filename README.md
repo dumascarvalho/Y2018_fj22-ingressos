@@ -1,5 +1,5 @@
-Meu nome é Dumas Morais de Carvalho, tenho 19 anos;
+Meu nome é Dumas Morais de Carvalho, tenho 20 anos;
 
 Meu email é dumasmcarvalho@gmail.com;
 
-E trabalho na Samsung R&D Institute Brazil.
+E sou estágiario na Samsung R&D Institute Brazil.
